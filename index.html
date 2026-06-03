@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siam Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+        .popup-intro {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: white;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            transition: transform 1s ease-in-out;
+        }
+        .left-side {
+            width: 50%;
+            height: 100%;
+        }
+        .left-side img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 1s ease-in-out;
+        }
+        .right-side {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0 50px;
+        }
+        .right-side h1 {
+            font-size: 3rem;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+            transition: transform 1s ease-in-out;
+            font-style: italic;
+        }
+        .right-side p {
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            font-style: italic;
+        }
+        .slide-out-left {
+            transform: translateX(-100vw);
+        }
+        .slide-out-right {
+            transform: translateX(100vw);
+        }
+    </style>
+</head>
+<body>
+    <div class="popup-intro" id="popupIntro">
+        <div class="left-side">
+            <img src="images/pic.jpg" alt="Siam Restaurant Logo">
+        </div>
+        <div class="right-side">
+            <h1>Siam <br>
+                Restaurant</h1>
+            <p><small>since 2005, Siam Restaurant was founded with passion to bring true flavor of Thailand right into your table</small></p>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('popupIntro').addEventListener('click', function() {
+            document.querySelector('.left-side img').classList.add('slide-out-left');
+            document.querySelector('.right-side h1').classList.add('slide-out-right');
+            document.querySelector('.right-side p').classList.add('slide-out-right');
+            setTimeout(function() {
+                window.location.href = "home.html";
+            }, 1000);
+        });
+    </script>
+</body>
+</html>

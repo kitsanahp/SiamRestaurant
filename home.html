@@ -1,0 +1,659 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Siam Restaurant</title>
+
+    <!-- CSS FILES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+    <link href="css/tooplate-crispy-kitchen.css" rel="stylesheet">
+    <!--
+
+Tooplate 2129 Crispy Kitchen
+
+https://www.tooplate.com/view/2129-crispy-kitchen
+
+-->
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-white shadow-lg">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <a class="navbar-brand" href="home.html">
+                Siam Restaurant
+            </a>
+
+            <div class="d-lg-none">
+                <button type="button" class="custom-btn btn btn-danger" data-bs-toggle="modal"
+                    data-bs-target="#BookingModal">Reservation</button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="home.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Story</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="news.html">Our Updates</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="d-none d-lg-block">
+                <button type="button" class="custom-btn btn btn-danger" data-bs-toggle="modal"
+                    data-bs-target="#BookingModal">Reservation</button>
+            </div>
+
+        </div>
+    </nav>
+
+    <main>
+
+        <section class="hero">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-5 col-12 m-auto">
+                        <div class="heroText">
+
+                            <h1 class="text-white mb-lg-5 mb-3">Siam Restaurant</h1>
+
+                            <div class="c-reviews my-3 d-flex flex-wrap align-items-center">
+                                <div class="d-flex flex-wrap align-items-center">
+                                    <h4 class="text-white mb-0 me-3">4.8/5</h4>
+
+                                    <div class="reviews-stars">
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star reviews-icon"></i>
+                                    </div>
+                                </div>
+
+                                <p class="text-white w-100">From <strong>1,206+</strong> Customer Reviews</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7 col-12">
+                        <div id="carouselExampleCaptions" class="carousel carousel-fade hero-carousel slide"
+                            data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="carousel-image-wrap">
+                                        <img src="slide/findin.jpg" class="img-fluid carousel-image" alt="">
+                                    </div>
+
+                                    <div class="carousel-caption">
+                                        <span class="text-white">
+                                            <i class="bi-geo-alt me-2"></i>
+                                            Phitsanulok, Thailand
+                                        </span>
+
+                                        <h4 class="hero-text">Fine Dining Restaurant</h4>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="carousel-image-wrap">
+                                        <img src="slide/somtum.jpg" class="img-fluid carousel-image" alt="">
+                                    </div>
+
+                                    <div class="carousel-caption">
+                                        <div class="d-flex align-items-center">
+                                            <h4 class="hero-text">Som Tum</h4>
+
+                                            <span class="price-tag ms-4"><small>฿</small>45</span>
+                                        </div>
+
+                                        <div class="d-flex flex-wrap align-items-center">
+                                            <h5 class="reviews-text mb-0 me-3">4.8/5</h5>
+
+                                            <div class="reviews-stars">
+                                                <i class="bi-star-fill reviews-icon"></i>
+                                                <i class="bi-star-fill reviews-icon"></i>
+                                                <i class="bi-star-fill reviews-icon"></i>
+                                                <i class="bi-star reviews-icon"></i>
+                                                <i class="bi-star reviews-icon"></i>
+
+                                                <span class="menu-recommendation">Most Recommended</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="carousel-image-wrap">
+                                        <img src="slide/pad-thai-white-plate-with-lemon-eggs-seasoning-wooden-table.jpg"
+                                            class="img-fluid carousel-image" alt="">
+                                    </div>
+
+                                    <div class="carousel-caption">
+                                        <div class="d-flex align-items-center">
+                                            <h4 class="hero-text">Pad Thai</h4>
+
+                                            <span class="price-tag ms-4"><small>฿</small>50</span>
+                                        </div>
+
+                                        <div class="d-flex flex-wrap align-items-center">
+                                            <h5 class="reviews-text mb-0 me-3">4.5/5</h5>
+
+                                            <div class="reviews-stars">
+                                                <i class="bi-star-fill reviews-icon"></i>
+                                                <i class="bi-star-fill reviews-icon"></i>
+                                                <i class="bi-star-fill reviews-icon"></i>
+                                                <i class="bi-star-fill reviews-icon"></i>
+                                                <i class="bi-star reviews-icon"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="video-wrap">
+                <video autoplay="" loop="" muted="" class="custom-video" poster="">
+                    <source src="video/c1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div class="overlay"></div>
+        </section>
+
+        <section class="menu section-padding">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-12">
+                        <h2 class="text-center mb-lg-5 mb-4">SIGNATURE DISH</h2>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="menu-thumb">
+                            <div class="menu-image-wrap">
+                                <img src="breakfast/cg1.jpg" class="img-fluid menu-image" alt="">
+
+                                <span class="menu-tag bg-warning">Breakfast</span>
+                            </div>
+
+                            <div class="menu-info d-flex flex-wrap align-items-center">
+                                <h4 class="mb-0">Green Curry with Rice</h4>
+
+                                <span class="price-tag bg-white shadow-lg ms-4"><small>฿</small>50</span>
+
+                                <div class="d-flex flex-wrap align-items-center w-100 mt-2">
+                                    <h6 class="reviews-text mb-0 me-3">4.5/5</h6>
+
+                                    <div class="reviews-stars">
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star reviews-icon"></i>
+                                    </div>
+
+                                    <p class="reviews-text mb-0 ms-4">102 Reviews</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="menu-thumb">
+                            <div class="menu-image-wrap">
+                                <img src="lunch/l1.jpg" class="img-fluid menu-image" alt="">
+
+                                <span class="menu-tag bg-warning">Lunch</span>
+                            </div>
+
+                            <div class="menu-info d-flex flex-wrap align-items-center">
+                                <h4 class="mb-0">Larb Moo</h4>
+
+                                <span class="price-tag bg-white shadow-lg ms-4"><small>฿</small>40</span>
+
+                                <div class="d-flex flex-wrap align-items-center w-100 mt-2">
+                                    <h6 class="reviews-text mb-0 me-3">4.3/5</h6>
+
+                                    <div class="reviews-stars">
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star reviews-icon"></i>
+                                    </div>
+
+                                    <p class="reviews-text mb-0 ms-4">50 Reviews</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="menu-thumb">
+                            <div class="menu-image-wrap">
+                                <img src="dinner/pk1.jpg" class="img-fluid menu-image" alt="">
+
+                                <span class="menu-tag bg-warning">Dinner</span>
+                            </div>
+
+                            <div class="menu-info d-flex flex-wrap align-items-center">
+                                <h4 class="mb-0">Pad Kra Pao Moo Sap</h4>
+
+                                <span class="price-tag bg-white shadow-lg ms-4"><small>฿</small>45</span>
+
+                                <del class="ms-4"><small>฿</small>50</del>
+
+                                <div class="d-flex flex-wrap align-items-center w-100 mt-2">
+                                    <h6 class="reviews-text mb-0 me-3">4.6/5</h6>
+
+                                    <div class="reviews-stars">
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star reviews-icon"></i>
+                                    </div>
+
+                                    <p class="reviews-text mb-0 ms-4">86 Reviews</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="menu-thumb">
+                            <div class="menu-image-wrap">
+                                <img src="dinner/y1.jpg" class="img-fluid menu-image" alt="">
+
+                                <span class="menu-tag bg-warning">Dinner</span>
+                            </div>
+
+                            <div class="menu-info d-flex flex-wrap align-items-center">
+                                <h4 class="mb-0"> Yum </h4>
+
+                                <span class="price-tag bg-white shadow-lg ms-4"><small>฿</small>86</span>
+
+                                <del class="ms-4"><small>฿ </small>124</del>
+
+                                <div class="d-flex flex-wrap align-items-center w-100 mt-2">
+                                    <h6 class="reviews-text mb-0 me-3">4.5/5</h6>
+
+                                    <div class="reviews-stars">
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star reviews-icon"></i>
+                                    </div>
+
+                                    <p class="reviews-text mb-0 ms-4">44 Reviews</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="menu-thumb">
+                            <div class="menu-image-wrap">
+                                <img src="breakfast/kj.jpg" class="img-fluid menu-image" alt="">
+
+                                <span class="menu-tag bg-warning">Breakfast</span>
+                            </div>
+
+                            <div class="menu-info d-flex flex-wrap align-items-center">
+                                <h4 class="mb-0">Khanom Jeen</h4>
+
+                                <span class="price-tag bg-white shadow-lg ms-4"><small>฿</small>60</span>
+
+                                <div class="d-flex flex-wrap align-items-center w-100 mt-2">
+                                    <h6 class="reviews-text mb-0 me-3">4.3/5</h6>
+
+                                    <div class="reviews-stars">
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star reviews-icon"></i>
+                                    </div>
+
+                                    <p class="reviews-text mb-0 ms-4">102 Reviews</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="menu-thumb">
+                            <div class="menu-image-wrap">
+                                <img src="lunch/pk3.jpg" class="img-fluid menu-image" alt="">
+
+                                <span class="menu-tag bg-warning">Lunch</span>
+                            </div>
+
+                            <div class="menu-info d-flex flex-wrap align-items-center">
+                                <h4 class="mb-0">Khao Pad</h4>
+
+                                <span class="price-tag bg-white shadow-lg ms-4"><small>฿</small>40</span>
+
+                                <div class="d-flex flex-wrap align-items-center w-100 mt-2">
+                                    <h6 class="reviews-text mb-0 me-3">3/5</h6>
+
+                                    <div class="reviews-stars">
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star reviews-icon"></i>
+                                        <i class="bi-star reviews-icon"></i>
+                                    </div>
+
+                                    <p class="reviews-text mb-0 ms-4">64 Reviews</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="BgImage"></section>
+
+        <section class="news section-padding">
+            <div class="container">
+                <div class="row">
+
+                    <h2 class="text-center mb-lg-5 mb-4">News &amp; Events</h2>
+
+                    <!---ข่าว1-->
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <div class="news-thumb mb-4">
+                            <a href="news-detail.html">
+                                <img src="news/cr1.jpg" class="img-fluid news-image" alt="">
+                            </a>
+
+                            <div class="news-text-info news-text-info-large">
+                                <span class="category-tag bg-danger">Featured</span>
+
+                                <h5 class="news-title mt-2">
+                                    <a href="news-detail.html" class="news-title-link">แจกสูตร ข้าวมันไก่หม้อหุงข้าว
+                                        ทำง่าย พร้อมวิธีทำน้ำจิ้มข้าวมันไก่ รสเด็ด!</a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!---จบข่าว1-->
+
+                    <!---ข่าว2-->
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <div class="news-thumb mb-4">
+                            <a href="news2-detail.html">
+                                <img src="images/fried-shrimps-with-garlic(1).jpg" class="img-fluid news-image" alt="">
+                            </a>
+
+                            <div class="news-text-info news-text-info-large">
+                                <span class="category-tag bg-danger">Featured</span>
+
+                                <h5 class="news-title mt-2">
+                                    <a href="news2-detail.html" class="news-title-link">บอกต่อสูตรกุ้งทอดเกลือ
+                                        เนื้อหวานกรอบเด้ง</a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!---จบข่าว2-->
+
+                    <!---ข่าว3-->
+                    <div class="col-lg-4 col-md-4 col-12">
+                        <div class="news-thumb mb-lg-0 mb-lg-4 mb-0">
+                            <a href="news3-detail.html">
+                                <img src="images/pic10.jpg" class="img-fluid news-image" alt="">
+                            </a>
+
+                            <div class="news-text-info">
+                                <span class="category-tag me-3 bg-info">New</span>
+
+                                <strong>6 January 2025</strong>
+
+                                <h5 class="news-title mt-2">
+                                    <a href="news3-detail.html" class="news-title-link">สูตรทำ
+                                        ซี่โครงหมูอบเต้าเจี้ยว</a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!---จบข่าว3-->
+
+
+                    <!---ข่าว4-->
+                    <div class="col-lg-4 col-md-4 col-12">
+                        <div class="news-thumb mb-lg-0 mb-lg-4 mb-2">
+                            <a href="news4-detail.html">
+                                <img src="images/pic11.jpg" class="img-fluid news-image" alt="">
+                            </a>
+
+                            <div class="news-text-info">
+                                <span class="category-tag">Latest</span>
+
+                                <h5 class="news-title mt-2">
+                                    <a href="news4-detail.html" class="news-title-link">น่องไก่ทอดหนังกรอบ
+                                        เทคนิคทอดไก่ให้หนังกรอบ</a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!---จบข่าว4-->
+
+                    <!---ข่าว5-->
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="news-thumb mb-4">
+                            <a href="news5-detail.html">
+                                <img src="images/pic12.jpg" class="img-fluid news-image" alt="">
+                            </a>
+
+                            <div class="news-text-info">
+                                <span class="category-tag me-3 bg-info">Meeting</span>
+
+                                <strong>15 January 2025</strong>
+
+                                <h5 class="news-title mt-2">
+                                    <a href="news5-detail.html" class="news-title-link">ผัดกะเพราหมูสับ
+                                        สูตรร้านตามสั่ง</a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!--จบข่าว5-->
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="site-footer section-padding">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-12">
+                    <h4 class="text-white mb-4 me-5">Siam Restaurant</h4>
+                </div>
+
+                <div class="col-lg-4 col-md-7 col-xs-12 tooplate-mt30">
+                    <h6 class="text-white mb-lg-4 mb-3">Location</h6>
+
+                    <small>
+                        <p>Phitsanulok Thailand</p>
+                    </small>
+
+                    <a href="https://maps.app.goo.gl/tPrUmhzu6k4rkxZz7"
+                        class="custom-btn btn btn-dark mt-2">Directions</a>
+                </div>
+
+                <div class="col-lg-4 col-md-5 col-xs-12 tooplate-mt30">
+                    <h6 class="text-white mb-lg-4 mb-3">Opening Hours</h6>
+
+                    <p class="mb-2">Monday - Friday</p>
+
+                    <p>10:00 AM - 08:00 PM</p>
+
+                    <p class="mb-2">Saturday - Sunday</p>
+
+                    <p>11:00 AM - 11:00 PM</p>
+
+                    <p>Tel: <a href="tel: 010-02-0340" class="tel-link">010-02-0340</a></p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-xs-12 tooplate-mt30">
+                    <h3 class="credit-title">Credit</h3>
+                    <ul class="credit-list">
+                        <li class="credit-item">Photo by</li>
+                        <li class="credit-item"><a href="https://www.pexels.com/th-th/" target="_blank"
+                                rel="noopener noreferrer">https://www.pexels.com/th-th/</a></li>
+
+                        <li class="credit-item">Video by</li>
+                        <li class="credit-item"><a href="https://www.pexels.com/th-th/" target="_blank"
+                                rel="noopener noreferrer">https://www.pexels.com/th-th/</a></li>
+
+                        <li class="credit-item">Template by</li>
+                        <li class="credit-item"><a href="https://templatemo.com/" target="_blank"
+                                rel="noopener noreferrer">https://templatemo.com/</a></li>
+
+                        <li class="credit-item">Article by</li>
+                        <li class="credit-item"><a href="https://food.trueid.net/detail/M6oyloE4klNB" target="_blank"
+                                rel="noopener noreferrer">https://food.trueid.net/detail/M6oyloE4klNB</a></li>
+                    </ul>
+
+
+
+                </div>
+
+            </div><!-- row ending -->
+
+        </div><!-- container ending -->
+
+    </footer>
+
+    <!-- Booking Modal UI - Fullscreen with Image on Left -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+
+    <div class="modal fade" id="BookingModal" tabindex="-1" aria-labelledby="BookingModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content d-flex flex-row">
+                <!-- Left Side with Image Only -->
+                <div class="modal-left d-flex flex-column justify-content-center text-white p-5" style="background: url('images/pic17.jpg') no-repeat center center; 
+                    background-size: cover; flex: 1; min-height: 600px;">
+                    <small class="position-absolute top-0 start-0 m-3 text-white">Siam <br>
+                        Restaurant</small>
+                    <img src="/images/pic17.jpg" alt="" class="img-fluid">
+                </div>
+
+                <!-- Right Side with Form -->
+                <div class="modal-right p-5 bg-light flex-1 d-flex flex-column justify-content-center">
+                    <h3 class="text-center fw-bold mb-4">Reservation a table</h3>
+                    <form action="#" method="post">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="name" placeholder="Full Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="tel" class="form-control" id="phone" placeholder="Phone Number" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="number" class="form-control" id="people" placeholder="Number of Persons"
+                                required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="date" class="form-control" id="date" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <select class="form-select" id="day" onchange="updateTimeOptions()" required>
+                                <option value="monday" selected>Monday</option>
+                                <option value="tuesday">Tuesday</option>
+                                <option value="wednesday">Wednesday</option>
+                                <option value="thursday">Thursday</option>
+                                <option value="friday">Friday</option>
+                                <option value="saturday">Saturday</option>
+                                <option value="sunday">Sunday</option>
+                            </select>
+                        </div>
+
+                        <!-- ตัวเลือกเวลาจะแสดงตรงนี้เมื่อเลือกวัน -->
+                        <div class="mb-3" id="timeContainer"></div>
+
+
+                        <div class="mb-3">
+                            <textarea class="form-control" id="message" rows="3"
+                                placeholder="Special Requests"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-dark w-100">Submit Request</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- JAVASCRIPT FILES -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
