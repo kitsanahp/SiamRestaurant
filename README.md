@@ -29,19 +29,6 @@
 
 ---
 
-## 🚀 วิธีการใช้งาน
-
-โปรเจกต์นี้พัฒนาด้วย HTML, CSS และ Vanilla JavaScript ล้วนๆ ไม่จำเป็นต้องติดตั้งเซิร์ฟเวอร์ใดๆ!
-เพียงแค่ Clone Repository นี้ลงมาที่เครื่องของคุณ แล้วเปิดไฟล์ `index.html` ผ่านเว็บเบราว์เซอร์ได้เลย
-
-```bash
-git clone https://github.com/kitsanahp/SiamRestaurant.git
-cd SiamRestaurant
-```
-จากนั้นดับเบิลคลิกที่ไฟล์ `index.html` เพื่อสัมผัสประสบการณ์บนเว็บไซต์ของเราได้ทันที!
-
----
-
 ## 🛠️ เครื่องมือที่ใช้พัฒนา
 
 * HTML5 & CSS3
