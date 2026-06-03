@@ -1,48 +1,48 @@
-# 🍲 Siam Restaurant
+# 🍲 Siam Restaurant (ร้านอาหารสยาม)
 
-Welcome to **Siam Restaurant**! Founded in 2005 with a passion to bring the true flavors of Thailand right to your table. 
-This is a static responsive website showcasing a Thai restaurant's authentic menus, news, and location.
+ยินดีต้อนรับสู่ **Siam Restaurant**! ร้านอาหารของเราก่อตั้งขึ้นในปี 2005 ด้วยความตั้งใจที่จะนำเสนอรสชาติอาหารไทยแท้ๆ สู่โต๊ะอาหารของคุณ
+โปรเจกต์นี้เป็นเว็บไซต์ Responsive แบบ Static ที่จัดทำขึ้นเพื่อแสดงเมนูอาหารไทยต้นตำรับ ข่าวสาร กิจกรรม และที่ตั้งของร้านอาหาร
 
 ---
 
-## 📸 Website Preview
+## 📸 ตัวอย่างหน้าเว็บไซต์
 
-### Landing Page
-The initial welcome page of our restaurant.
+### หน้าแรก (Landing Page)
+หน้าต้อนรับเริ่มต้นของร้านอาหารเรา
 ![Landing Page](screenshots/index.png)
 
-### Home Page
-A beautiful overview showing our story, top menus, and atmosphere.
+### หน้าหลัก (Home Page)
+ภาพรวมที่สวยงามซึ่งบอกเล่าเรื่องราวของร้าน เมนูยอดฮิต และบรรยากาศภายในร้าน
 ![Home Page](screenshots/home.png)
 
-### Menu
-A detailed list of our delicious offerings (Breakfast, Lunch, Dinner).
+### เมนูอาหาร (Menu)
+รายการอาหารแสนอร่อยแบบจัดเต็ม (อาหารเช้า, อาหารกลางวัน, อาหารเย็น)
 ![Menu](screenshots/menu.png)
 
-### News & Events
-Updates about our new branches, chef's specials, and more.
+### ข่าวสารและกิจกรรม (News & Events)
+อัปเดตข้อมูลข่าวสารเกี่ยวกับการเปิดสาขาใหม่ เมนูพิเศษจากเชฟ และอื่นๆ
 ![News & Events](screenshots/news.png)
 
-### Contact Us
-Location details and a contact form to reach out to us.
+### ติดต่อเรา (Contact Us)
+รายละเอียดที่ตั้งของร้านและแบบฟอร์มสำหรับติดต่อสอบถาม
 ![Contact](screenshots/contact.png)
 
 ---
 
-## 🚀 How to Run
+## 🚀 วิธีการใช้งาน
 
-This project is built using HTML, CSS, and Vanilla JavaScript. No server setup is required!
-Simply clone the repository and open `index.html` in your favorite web browser.
+โปรเจกต์นี้พัฒนาด้วย HTML, CSS และ Vanilla JavaScript ล้วนๆ ไม่จำเป็นต้องติดตั้งเซิร์ฟเวอร์ใดๆ!
+เพียงแค่ Clone Repository นี้ลงมาที่เครื่องของคุณ แล้วเปิดไฟล์ `index.html` ผ่านเว็บเบราว์เซอร์ได้เลย
 
 ```bash
 git clone https://github.com/kitsanahp/SiamRestaurant.git
 cd SiamRestaurant
 ```
-Then double-click on `index.html` to experience the website!
+จากนั้นดับเบิลคลิกที่ไฟล์ `index.html` เพื่อสัมผัสประสบการณ์บนเว็บไซต์ของเราได้ทันที!
 
 ---
 
-## 🛠️ Built With
+## 🛠️ เครื่องมือที่ใช้พัฒนา
 
 * HTML5 & CSS3
 * JavaScript
